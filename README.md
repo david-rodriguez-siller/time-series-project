@@ -2,7 +2,7 @@
 
 ## Project Goals
 
-My goal is to identify key drivers for logerror by utilizing clustering.
+The goal of this project is to perform data analysis to identify .
 
 
 ## Project Description
@@ -25,29 +25,26 @@ In this project we want to uncover what the drivers of the error are in Zillow's
 - How different are the logerrors for the three counties in the dataset?
 
 
-
-
 ### Data Dictionary
 
-| Variable            |     Description  |     
-| ----------------    | ------------------ |
-|bathroomcnt          | Number of bathrooms in each home.  Can be half bathrooms and there will not be rows with 0 bathrooms |
-|bedroomcnt         | Number of bedrooms in each home |
-|calculatedfinishedsquarefeet             | Square feet of property |
-|latitude          | Latitude of home location |
-|longitude   | Longitude of home location |
-|lotsizesquarefeet | Square feet total of home lot |
-|rawcensustractandblock           | Raw census tract and block id combined  |
-|regionidzip                 | Home zip code |
-|roomcnt           | Total number of rooms in the home |
-|yearbuilt             | The year the home was built |
-|structuretaxvaluedollarcnt          | The assessed value of the home |
-|taxvaluedollarcnt          | Tax value assessed |
-|landtaxvaluedollarcnt          | Tax value of land where home is located |
-|taxamount          | Tax amount paid on the property |
-|censustractandblock          | Census tract and block id combined |
-|logerror          | Target variable |
-|county          | County where home is located |
+| Variable            |     Description     |     
+| ----------------    | ------------------  |
+|order_id          | Order ID of sale at give date                |
+|order_date           | Date of order placed by custoemr                | 
+|ship_date             | Shipment date by Superstore                |
+|ship_mode            | Shipment method to customer                |
+|customer_id    | Customer individual ID                |
+|customer_name           | Customer name                |
+|segment          | Type of customer                |
+|city              | Customer's city                |
+|state            | Customer's state                |
+|postal_code| Customer's zip code                |
+|region    | Customer's region                |
+|product_id| Individual product ID                |
+|category            | Type of product sold                |
+|subcategory   | A sub-type of product sold, more specific than category                |
+|product_name             | Name of product sold                |
+|sales               | Sales made by order, target variable                |
 
 
 
