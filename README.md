@@ -2,27 +2,23 @@
 
 ## Project Goals
 
-The goal of this project is to perform data analysis to identify .
+The goal of this project is to perform data analysis to identify drivers in sales and areas of interest to provide insight.
 
 
 ## Project Description
 
-A home is often the largest and most expensive purchase a person makes in his or her lifetime. Ensuring homeowners have a trusted way to monitor this asset is incredibly important. One considers several aspects while purchasing a home, the size, how many rooms are available, and many more.
-
-Zillow is a popular estimator for house evaluation available online.  Zillow's Zestimate allows the homebuyers to search for a home that satisfies their location, area, budget, etc.
-
-In this project we want to uncover what the drivers of the error are in Zillow's Zestimate. The focus will be the single unit properties that had a transaction during 2017.
+It is important for business owners to know what their most important customers are, what products are being sold, and what geographic areas are generating the most sales. The superstore dataset contains information about a store and its sales information. The dataset contains dated transactions spanning a few years that show the growth the company has had. As mentioned, it is important to identify key products that could unlock further potential.
 
 
 ### Initial Questions
 
-- Is there a relationship between logerror and longitude and latitude?
+- What are the most popular/profitable product lines?
 
-- What is the relationship between What is the relationship between bedroom count and logerror?
-    
-- What is the relationship between square feet and logerror?
+- What are the sales cycles like and how do they differ between each segment?
 
-- How different are the logerrors for the three counties in the dataset?
+- What regions/states generate the most sales?
+
+- What is the proportion of each customers segments and what do they buy the most?
 
 
 ### Data Dictionary
